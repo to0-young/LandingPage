@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.fixedWidth {
+    max-width: 1445px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 88px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana,Tahoma;
+    font-size: 18px;
+    height: 100%;
+    line-height: 22px;
+}
+
+.nav__link {
+    color: darkgrey;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.line {
+    border: 0.5px solid #0e0101;
+}
+
+.meta_images {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+
+.designer {
+    min-height: calc(100vh - 88px);
+}
+
+.designer_image {
+    width: 100%;
+}
+
+.aboutMe {
+    margin-top: 4%;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F6F6F6;
+}
+
+.aboutMe__mainImage {
+    margin-bottom: 16px;
+}
+
+
+.desinger_img{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desinger_img3{
+    margin-top: 69px;
+}
+
+.restor_img{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 110px;
+    
+}
+
+
+
+.restor_img1{
+    margin-top: 25px;
+    height: 2355px;
+    left: 0px;
+    top: 1884px;
+    background: #F6F6F6;
+    max-width: 1445px;
+    margin: 0 auto;
+}
+.Portfolio{
+    display: flex;
+    padding-top: 90px;
+    margin-top: 120;
+    margin-left: 695px;
+    margin-bottom: 100px;
+}
+
+.sloy{
+    margin-left: 280px;
+    margin-right: 235px;
+}
+
+.online_store{
+    padding-top: 44px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color: #070707;
+}
+
+.sport{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+
+.store{
+    margin-top: 45px;
+    margin-bottom: 99px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration:none;
+    color: #070707;
+}
+
+.cam{
+    margin-top: 50px;
+    margin-left: 280px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 45px;
+    margin-bottom: 99px;
+    text-align: center;
+    text-decoration:none;
+    color: #070707;
+    margin-bottom: 99px;
+}
+
+.contacts{
+    margin-top: 55px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.fot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.you{
+    margin-left: 7px;
+    margin: 0 auto;
+}
+
+.text{
+    margin: 0 auto;
+}
+.grup{
+    margin-top: 15xp;
+}
+
+.like{
+    margin-left: 15px;
+    margin: 0 auto;
+}
